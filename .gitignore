@@ -1,0 +1,7 @@
+node_modules/
+.playwright-mcp/
+*.log
+.env
+# Never commit browser profiles: they contain cookies and saved passwords.
+profiles/
+*.cloning/

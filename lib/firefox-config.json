@@ -1,0 +1,18 @@
+{
+  "browser": {
+    "browserName": "firefox",
+    "launchOptions": {
+      "channel": "moz-firefox",
+      "firefoxUserPrefs": {
+        "signon.rememberSignons": true,
+        "signon.autofillForms": true,
+        "browser.safebrowsing.malware.enabled": true,
+        "browser.safebrowsing.phishing.enabled": true,
+        "browser.safebrowsing.downloads.enabled": true,
+        "browser.safebrowsing.blockedURIs.enabled": true,
+        "privacy.trackingprotection.enabled": true,
+        "extensions.update.enabled": true
+      }
+    }
+  }
+}

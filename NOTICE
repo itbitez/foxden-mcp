@@ -1,0 +1,17 @@
+FoxDen MCP
+Copyright (c) 2026 itbitez. Licensed under the MIT License (see LICENSE).
+
+FoxDen is an independent project and is not affiliated with or endorsed by
+Microsoft or Mozilla.
+
+It uses the following software as an unmodified npm dependency, which is
+installed separately and is not included in this repository:
+
+  Playwright MCP (@playwright/mcp) and Playwright (playwright, playwright-core)
+  Copyright (c) Microsoft Corporation.
+  Licensed under the Apache License, Version 2.0
+  https://github.com/microsoft/playwright-mcp
+  https://www.apache.org/licenses/LICENSE-2.0
+
+Playwright is a trademark of Microsoft Corporation. Firefox is a trademark of
+the Mozilla Foundation. These names are used only to describe compatibility.

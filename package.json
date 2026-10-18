@@ -1,0 +1,43 @@
+{
+  "name": "foxden-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that drives your own Firefox with your logins, saved passwords and extensions. All Playwright MCP tools, Firefox instead of Chrome.",
+  "keywords": [
+    "mcp",
+    "firefox",
+    "browser-automation",
+    "ai-agent",
+    "model-context-protocol"
+  ],
+  "author": "itbitez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itbitez/foxden-mcp.git"
+  },
+  "homepage": "https://github.com/itbitez/foxden-mcp#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "foxden-mcp": "bin/foxden-mcp.js",
+    "foxden": "bin/foxden.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "NOTICE"
+  ],
+  "scripts": {
+    "start": "node bin/foxden-mcp.js",
+    "foxden": "node bin/foxden.js",
+    "doctor": "node bin/foxden.js doctor",
+    "test": "node test/smoke.mjs"
+  },
+  "dependencies": {
+    "@playwright/mcp": "0.0.83"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2"
+  }
+}
